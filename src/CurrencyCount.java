@@ -30,6 +30,7 @@ public class CurrencyCount {
 				
 			}else {
 				if(i == 5) {System.out.println("You made 5 attempts, but still did not enter the name of the currency or price correctly, please close the program and try again later");
+				break;
 				}else {
 				System.out.println("Invalid name of currency, insert GBP, EUR or UAH" );
 				}
