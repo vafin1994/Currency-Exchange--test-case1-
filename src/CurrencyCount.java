@@ -25,15 +25,11 @@ public class CurrencyCount {
 					finalPrice = (double)Math.round(finalPrice * 100d) / 100d;
 					System.out.println("Price in " + currencyName + " is " + finalPrice);
 					//break;
-					//In case that you want only one successful implemintation of programm, just uncomment previous string
+					//In case that you want only one successful implementation of program, just uncomment previous string
 				}
 				
-			}else {
-				if(i == 5) {System.out.println("You made 5 attempts, but still did not enter the name of the currency or price correctly, please close the program and try again later");
-				break;
-				}else {
+			}else {	
 				System.out.println("Invalid name of currency, insert GBP, EUR or UAH" );
-				}
 			}
 		}
 		
